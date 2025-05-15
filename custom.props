@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <!-- This file is read by XES, which we use in our Release builds. -->
+  <!--
+  Purpose: XES configuration for Windows Terminal release builds
+  - Used for versioning via OneStore
+  - Base version year: 2025
+  - Version: 1.24
+  Maintainer: <YourName or Team>
+-->
+
   <PropertyGroup Label="Version">
     <XesUseOneStoreVersioning>true</XesUseOneStoreVersioning>
     <XesBaseYearForStoreVersion>2025</XesBaseYearForStoreVersion>
+
     <VersionMajor>1</VersionMajor>
     <VersionMinor>24</VersionMinor>
+
     <VersionInfoProductName>Windows Terminal</VersionInfoProductName>
-  </PropertyGroup>
-</Project>
+</PropertyGroup>
+
