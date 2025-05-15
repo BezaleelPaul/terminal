@@ -8,9 +8,9 @@
     "terminal": {
       "description": "Components required for Windows Terminal; separated out to make the Windows conhost build work",
       "dependencies": [
-        "jsoncpp",
         "cli11",
-        "cmark"
+        "cmark",
+        "jsoncpp",  
       ]
     }
   },
